@@ -1,0 +1,31 @@
+pipelineJob('Project-A/A1/jenkins-pipeline-job-c1.1') {
+  definition {
+    cpsScmFlowDefinition {
+      scm {
+        gitSCM {
+          userRemoteConfigs {
+            userRemoteConfig {
+              credentialsId('')
+              name('')
+              refspec('')
+              url('https://github.com/SumeetBandgar/Jenkins.git')
+            }
+          }
+          branches {
+            branchSpec {
+              name('*/shared-library-assign3')
+            }
+          }
+          browser {
+            gitWeb {
+              repoUrl('')
+            }
+          }
+          gitTool('')
+        }
+      }
+      scriptPath('Jenkinsfile')
+      lightweight(true)
+    }
+  }
+}
