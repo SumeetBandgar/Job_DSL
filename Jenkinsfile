@@ -4,7 +4,7 @@ pipeline {
         stage("Checkout Repo") {
             steps {
                 sh '''
-                echo 'Successfully executed Project-A : A2 Pipeline Job'
+                echo 'Successfully executed Project-B : B1 Pipeline Job'
                 '''
             }
         }
