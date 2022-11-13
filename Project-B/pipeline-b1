@@ -1,4 +1,4 @@
-pipelineJob('Project-A/A1/jenkins-pipeline-job-b2') {
+pipelineJob('Project-A/A1/jenkins-pipeline-job-b1') {
   definition {
     cpsScmFlowDefinition {
       scm {
@@ -8,12 +8,12 @@ pipelineJob('Project-A/A1/jenkins-pipeline-job-b2') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/SumeetBandgar/Job_DSL.git')
             }
           }
           branches {
             branchSpec {
-              name('*/shared-library-assign3')
+              name('*/pipeline-b1')
             }
           }
           browser {
