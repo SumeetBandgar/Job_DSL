@@ -1,4 +1,4 @@
-pipelineJob('Project-A/A1/jenkins-pipeline-job-a1') {
+pipelineJob('Project-A/A1/jenkins_pipeline_job_a1') {
   definition {
     cpsScmFlowDefinition {
       scm {
