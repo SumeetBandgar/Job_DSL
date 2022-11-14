@@ -1,3 +1,10 @@
+folder('Project-A') {
+    description('Folder for project A')
+}
+folder('Project-A/A1') {
+    description('Project-A => Folder for project A1')
+}
+
 pipelineJob('Project-A/A1/jenkins_pipeline_job_a1') {
   definition {
     cpsScmFlowDefinition {
