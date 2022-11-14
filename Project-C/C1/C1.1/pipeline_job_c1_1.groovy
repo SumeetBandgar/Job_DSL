@@ -1,4 +1,4 @@
-pipelineJob('Project-A/A2/jenkins-pipeline-job-a2') {
+pipelineJob('Project-C/C1/C1.1/pipeline_job_c1_1') {
   definition {
     cpsScmFlowDefinition {
       scm {
@@ -13,7 +13,7 @@ pipelineJob('Project-A/A2/jenkins-pipeline-job-a2') {
           }
           branches {
             branchSpec {
-              name('*/pipeline-a2')
+              name('*/pipeline-c1.1')
             }
           }
           browser {
