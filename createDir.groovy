@@ -22,3 +22,7 @@ folder('Project-C/C2') {
 folder('Project-C/C1/C1.1') {
     description('Project-C => Folder C => Folder for project C 1.1')
 }
+
+folder('Shared-Library-Assignment') {
+    description('Shared Library Assignment')
+}
