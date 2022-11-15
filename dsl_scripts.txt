@@ -1,0 +1,6 @@
+*.groovy
+Project-A/**/*.groovy
+Project-B/*.groovy
+Project-C/**/**/*.groovy
+Project-C/**/*.groovy
+Shared-Library-Assignment/*.groovy
